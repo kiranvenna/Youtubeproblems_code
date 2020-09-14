@@ -34,7 +34,7 @@ data fourth_status;
 610 E F
 ;
 
-	/* building reference/control table
+	/* building reference/control table*/
 	data reference;
 	length name $20;
 	input name $ id_col $;
