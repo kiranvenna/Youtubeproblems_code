@@ -1,5 +1,4 @@
 *How to find rows that are not common to both datasets using Proc SQL join;
-
 /* data prep*/
 data one;
 	input id age;
@@ -16,15 +15,16 @@ data two;
 4 4000
 ;
 run;
-/* simple full condition*/
+
+/*simple full Join*/
 proc sql;
-create table hh as 
-select coalesce(one.id, two.id) as id,
+select one.id, 
        one.age,
+       two.id,
        two.salary
-from one a
-full join
-Two b
+from one 
+full join 
+Two 
 on one.id=two.id;
 quit;
 
@@ -34,13 +34,14 @@ select one.id,
        one.age,
        two.id,
        two.salary
-from one a
+from one 
 full join 
-Two b
+Two 
 on one.id=two.id
 where one.id is missing 
 or    two.id is missing;
 quit;
+
 
 
 /* adding coalesce to make output much cleaner */
@@ -48,9 +49,9 @@ proc sql;
 select coalesce(one.id,two.id) as id,
        one.age,
        two.salary
-from one a
+from one 
 full join 
-Two b
+Two 
 on one.id=two.id
 where one.id is missing 
 or    two.id is missing;
