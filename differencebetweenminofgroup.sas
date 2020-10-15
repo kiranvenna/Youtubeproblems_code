@@ -11,12 +11,12 @@ DATA patient_SBPInfo;
 ;
 RUN;
 
-proc print;
+/* sorting the data*/
 proc sort data=patient_SBPInfo;
 	by patient_id SBP;
 run;
 
-
+/* final code*/
 data want;
 	set patient_SBPInfo;
 	by patient_id;
