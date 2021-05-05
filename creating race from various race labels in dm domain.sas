@@ -1,3 +1,4 @@
+/* data preparation*/
 data test;
 	input studyid $ Race1 Race2 Race3 Race4 Race5;
 	label RACE1="American Indian or Alaska Native" RACE2="Asian" 
@@ -11,7 +12,7 @@ data test;
 005 1 . . . 1
 ;
 run;
-
+/* code to find race from different race variable labels*/
 data dm2001;
 	set test;
 	length race $200;
