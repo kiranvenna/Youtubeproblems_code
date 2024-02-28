@@ -1,3 +1,20 @@
+data have;
+	input @1 id:$3. var1-var12;
+	cards;
+A 1 2 3 . . . . . 1 1 1 3 
+B . 3 2 1 3 2 1 . . . . .
+C . . . . 1 2 3 1 2 3 2 .
+D 3 . 1 . 3 . 1 . 3 . 1 .
+F 1 3 . . 1 3 . . 1 3 . .
+E 3 2 1 . . . . . 1 1 1 3
+G 3 3 2 1 3 2 1 . . . . .
+H . . 1 3 3 1 2 3 1 2 . .
+I 3 . 1 . 3 . 1 . 3 . 1 .
+J . . . . . . . . . . . . 
+;
+run;
+
+
 data want;
 	set have;
 	array nu(12) var1--var12;
@@ -35,5 +52,3 @@ data want;
 	drop i j count_front count_back;
 run;
 
-proc print;
-data;
