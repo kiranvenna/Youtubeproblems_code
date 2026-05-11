@@ -1,0 +1,8 @@
+{
+  "bundle": "t006_missing_numbers",
+  "source_file": "findingmissingnumber.sas",
+  "source_blob_sha": "5fc28609de65a7fb172330999dfd41a893e9b278",
+  "source_commit": "ad15c112e1004f30104a075f408b73f6f8bdb008",
+  "tier": "self_contained",
+  "notes": "Three-step pipeline: build a punctured 4..20 sequence, derive min/max via PROC SQL, then list the missing values with a correlated NOT IN subquery. Verbatim from the upstream file."
+}

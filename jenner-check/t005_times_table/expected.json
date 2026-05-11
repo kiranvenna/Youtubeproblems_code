@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-05-11T00:00:00Z",
+  "_captured_run_id": "r_019e17be232973a1a4f2b702aaa95aa6",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA test",
+    "NOTE: Wrote test (10 rows, 1 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 1 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

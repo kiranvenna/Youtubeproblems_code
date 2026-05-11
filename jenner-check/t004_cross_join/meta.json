@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_cross_join",
+  "source_file": "crossjoin.sas",
+  "source_blob_sha": "03be3e22f5a10c1906eb04be10549f3afb7a9fae",
+  "source_commit": "ad15c112e1004f30104a075f408b73f6f8bdb008",
+  "tier": "self_contained",
+  "notes": "Side-by-side demonstration of PROC SQL cross join: explicit CROSS JOIN keyword and implicit comma-separated FROM form. Both queries produce the 9-row Cartesian product. Verbatim from the upstream file."
+}

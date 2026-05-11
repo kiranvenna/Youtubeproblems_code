@@ -1,0 +1,8 @@
+{
+  "bundle": "t007_first_dot_groupmin",
+  "source_file": "differencebetweenminofgroup.sas",
+  "source_blob_sha": "a01a3350efa208822b76148492c47b3fc015626f",
+  "source_commit": "ad15c112e1004f30104a075f408b73f6f8bdb008",
+  "tier": "self_contained",
+  "notes": "PROC SORT by patient_id SBP, then a DATA step with BY-group processing, RETAIN, FIRST.patient_id, and a subsetting IF that keeps only visits where SBP exceeds the per-patient minimum by more than 20. Verbatim from the upstream file."
+}

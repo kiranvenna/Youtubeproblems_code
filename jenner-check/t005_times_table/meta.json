@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_times_table",
+  "source_file": "Creating times table (multiplication table) in SAS.sas",
+  "source_blob_sha": "fa93056f288b6f19c0f23f5aeebdcc92b49855a6",
+  "source_commit": "ad15c112e1004f30104a075f408b73f6f8bdb008",
+  "tier": "self_contained",
+  "notes": "Builds a printable 2x multiplication table using CAT to format each row and OUTPUT inside a DO loop, then KEEP narrows the dataset to just the TIMES_TABLE column. Verbatim from the upstream file."
+}
