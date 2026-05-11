@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_expand_dates",
+  "source_file": "expanddates.sas",
+  "source_blob_sha": "a3f6d95a4b6830a46f608a35dd3cdcd21ca0d083",
+  "source_commit": "ad15c112e1004f30104a075f408b73f6f8bdb008",
+  "tier": "self_contained",
+  "notes": "Reads start/end SAS dates with the :yymmdd. informat, then expands each interval into one row per day using a DO newdate=startdate TO enddate loop with OUTPUT. Verbatim from the upstream file."
+}

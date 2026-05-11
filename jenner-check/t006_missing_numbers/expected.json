@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-05-11T00:00:00Z",
+  "_captured_run_id": "r_019e17be91a072a2b83ef8f47880a491",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote test (12 rows, 1 columns).",
+    "NOTE: Table test1 created.",
+    "NOTE: Wrote all_numbers (17 rows, 1 columns).",
+    "NOTE: PROC SQL statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

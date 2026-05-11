@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_array_multiples",
+  "source_file": "arraymultiples_final.sas",
+  "source_blob_sha": "6b5f547dba349e6b2cbdfde4c1be1d908732ccdb",
+  "source_commit": "ad15c112e1004f30104a075f408b73f6f8bdb008",
+  "tier": "self_contained",
+  "notes": "Implicit ARRAY of 100 numeric elements multiplied by SALE, producing SALES1..SALES100. PROC PRINT keeps a small spot-check subset of columns so the listing stays readable."
+}

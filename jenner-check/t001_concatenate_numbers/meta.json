@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_concatenate_numbers",
+  "source_file": "concatenate1to10numbers.sas",
+  "source_blob_sha": "69b56bf1b449a0c9ed457ce666433cfb2de8952b",
+  "source_commit": "ad15c112e1004f30104a075f408b73f6f8bdb008",
+  "tier": "self_contained",
+  "notes": "DO loop with CATX building a comma-separated list of 1..10 in a single $30 variable. Added a PROC PRINT step so the listing shows the resulting string."
+}

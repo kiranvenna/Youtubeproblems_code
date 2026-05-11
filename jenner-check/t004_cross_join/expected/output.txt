@@ -1,0 +1,22 @@
+carbrand     msrp    color  intial
+--------  -------  -------  ------
+  toyota  10000.0     Blue       B
+  toyota  10000.0    White       W
+  toyota  10000.0  Metalic       M
+   honda  11000.0     Blue       B
+   honda  11000.0    White       W
+   honda  11000.0  Metalic       M
+     BMW  12000.0     Blue       B
+     BMW  12000.0    White       W
+     BMW  12000.0  Metalic       M
+carbrand     msrp    color  intial
+--------  -------  -------  ------
+  toyota  10000.0     Blue       B
+  toyota  10000.0    White       W
+  toyota  10000.0  Metalic       M
+   honda  11000.0     Blue       B
+   honda  11000.0    White       W
+   honda  11000.0  Metalic       M
+     BMW  12000.0     Blue       B
+     BMW  12000.0    White       W
+     BMW  12000.0  Metalic       M

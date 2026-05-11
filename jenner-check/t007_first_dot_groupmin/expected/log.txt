@@ -1,0 +1,31 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA patient_SBPInfo
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 7 rows from DATALINES.
+NOTE: Wrote patient_SBPInfo (7 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=patient_SBPInfo
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 7 rows from patient_SBPInfo.
+NOTE: Wrote patient_SBPInfo (7 rows, 3 columns).
+NOTE: NOEQUALS option acknowledged. Note: Jenner uses stable sort, so original order of ties is always preserved.
+NOTE: PROC SORT statement used.
+NOTE: DATA want
+
+
+NOTE: Read 7 rows from patient_SBPInfo.
+NOTE: Wrote want (3 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=want
+
+NOTE: PROC PRINT completed: 3 observations printed, 3 variables

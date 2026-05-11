@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-05-11T00:00:00Z",
+  "_captured_run_id": "r_019e17bf087b7870bbef031eb749c8d8",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote patient_SBPInfo (7 rows, 3 columns).",
+    "NOTE: PROC SORT statement used.",
+    "NOTE: Wrote want (3 rows, 3 columns).",
+    "NOTE: PROC PRINT completed: 3 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
